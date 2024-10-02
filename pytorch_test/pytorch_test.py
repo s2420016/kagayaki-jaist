@@ -95,7 +95,7 @@ class LocalH5Dataset(Dataset):
 
 
 # データセットのルートディレクトリを指定
-root = r"F:\test"
+root = r"./data"
 
 # imageフォルダとmaskフォルダのパス
 image_dir = os.path.join(root, "img")
